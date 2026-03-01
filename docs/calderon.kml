@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Circumscripție școlară (aprox.) — Liceul Teoretic "Jean Louis Calderon", Timișoara</name>
+    <open>1</open>
+    <description>Poligon aproximativ generat din puncte-ancoră (centre stradale): Splaiul Spiru Haret, Bd. Eroilor de la Tisa, Bd. Corneliu Coposu, Str. Ștefan cel Mare, Bd. 3 August 1919, Str. Dacilor. 
+Sursă listă străzi: ISJ Timiș (2025–2026).
+Notă: Acest contur este orientativ; nu reprezintă limita juridică.</description>
+    <Style id="polyStyle">
+      <LineStyle>
+        <color>ff2a5adf</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>552a5adf</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Calderon — Circumscripție (aprox.)</name>
+      <styleUrl>#polyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+21.2282142946546,45.7491097052903,0
+21.2393771999767,45.7464568500154,0
+21.25107470002,45.7519368500062,0
+21.2495401500357,45.7591810500047,0
+21.2282142946546,45.7491097052903,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
